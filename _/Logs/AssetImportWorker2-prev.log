@@ -1,0 +1,408 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.16f1 (d2c21f0ef2f1) revision 13812255'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26016) 64bit Core' Language: 'pt' Physical Memory: 8033 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/selfd/TMM88 ULTIMATE SFX
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+52811
+Successfully changed project path to: C:/Users/selfd/TMM88 ULTIMATE SFX
+C:/Users/selfd/TMM88 ULTIMATE SFX
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [12704] Host "[IP] 0.0.0.0 [Port] 0 [Flags] 2 [Guid] 1503013178 [EditorId] 1503013178 [Version] 1048832 [Id] WindowsEditor(7,tmm88) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [12704] Host "[IP] 0.0.0.0 [Port] 0 [Flags] 2 [Guid] 1503013178 [EditorId] 1503013178 [Version] 1048832 [Id] WindowsEditor(7,tmm88) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 11.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.16f1 (d2c21f0ef2f1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/selfd/TMM88 ULTIMATE SFX/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c8c)
+    Vendor:   NVIDIA
+    VRAM:     4017 MB
+    Driver:   31.0.15.4633
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56692
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010787 seconds.
+- Loaded All Assemblies, in  0.480 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.339 seconds
+Domain Reload Profiling: 816ms
+	BeginReloadAssembly (138ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (203ms)
+		LoadAssemblies (136ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (199ms)
+			TypeCache.Refresh (197ms)
+				TypeCache.ScanAssembly (179ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (340ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (265ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (179ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.795 seconds
+Refreshing native plugins compatible for Editor in 3.73 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.937 seconds
+Domain Reload Profiling: 1729ms
+	BeginReloadAssembly (199ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (473ms)
+		LoadAssemblies (370ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (224ms)
+			TypeCache.Refresh (199ms)
+				TypeCache.ScanAssembly (182ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (938ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (746ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (626ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 3.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3083 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.3 KB). Loaded Objects now: 3544.
+Memory consumption went from 122.5 MB to 122.4 MB.
+Total: 3.951800 ms (FindLiveObjects: 0.268200 ms CreateObjectMapping: 0.203200 ms MarkObjects: 3.374100 ms  DeleteObjects: 0.105100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2564.066432 seconds.
+  path: Assets/Scenes/SFX_DEMO_#12 1.unity
+  artifactKey: Guid(189b4a9f4ab76b942a5a055637981179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SFX_DEMO_#12 1.unity using Guid(189b4a9f4ab76b942a5a055637981179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e624e6323404053b18a89e52cba3d4') in 0.003949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.824201 seconds.
+  path: Assets/Scenes/SFX_DEMO_#12 13.unity
+  artifactKey: Guid(189b4a9f4ab76b942a5a055637981179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SFX_DEMO_#12 13.unity using Guid(189b4a9f4ab76b942a5a055637981179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd410f49f158f7644be6f5eda775da1fd') in 0.000878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.516496 seconds.
+  path: Assets/Scenes/SFX_DEMO_#13.unity
+  artifactKey: Guid(189b4a9f4ab76b942a5a055637981179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SFX_DEMO_#13.unity using Guid(189b4a9f4ab76b942a5a055637981179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '056bc75708aa9b83d6aaee0e68ed8398') in 0.001018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 23.749778 seconds.
+  path: Assets/Scenes/SFX_DEMO_#13 1.unity
+  artifactKey: Guid(ae8f01f9730ce814b9b22da5bf7d2908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SFX_DEMO_#13 1.unity using Guid(ae8f01f9730ce814b9b22da5bf7d2908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a77db824cdf9e00f7966066006a3957') in 0.000645 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.331193 seconds.
+  path: Assets/Scenes/SFX_DEMO_#14.unity
+  artifactKey: Guid(ae8f01f9730ce814b9b22da5bf7d2908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SFX_DEMO_#14.unity using Guid(ae8f01f9730ce814b9b22da5bf7d2908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2135182ec75e1f90c4b5bf131032cd16') in 0.000804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 21.894668 seconds.
+  path: Assets/Scenes/SFX_DEMO_#14 1.unity
+  artifactKey: Guid(5a1a27e6abc468841a31b6e0b9de875b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SFX_DEMO_#14 1.unity using Guid(5a1a27e6abc468841a31b6e0b9de875b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea8085667c658a3d8946f3871c4bb4d4') in 0.000586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.637762 seconds.
+  path: Assets/Scenes/SFX_DEMO_#15.unity
+  artifactKey: Guid(5a1a27e6abc468841a31b6e0b9de875b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SFX_DEMO_#15.unity using Guid(5a1a27e6abc468841a31b6e0b9de875b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3b72d6b918d42224d8819fa42d6bd6f') in 0.001173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 41.436876 seconds.
+  path: Assets/Audio/SFX_ALIEN_GUNS/SFX_ALIEN_GUNS_#1.wav
+  artifactKey: Guid(a37baa12901bdca4da1c46606bd28a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX_ALIEN_GUNS/SFX_ALIEN_GUNS_#1.wav using Guid(a37baa12901bdca4da1c46606bd28a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fde0cca86940ab91607b9aac9f0126dc') in 0.137227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 16.367726 seconds.
+  path: Assets/Audio/SFX_ALIEN_GUNS/SFX_ALIEN_GUNS_1.wav
+  artifactKey: Guid(a37baa12901bdca4da1c46606bd28a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX_ALIEN_GUNS/SFX_ALIEN_GUNS_1.wav using Guid(a37baa12901bdca4da1c46606bd28a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb42b5060d0066a6652e5e570f992a77') in 0.008352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.936283 seconds.
+  path: Assets/Audio/SFX_ALIEN_GUNS/SFX_ALIEN_GUNS_20.wav
+  artifactKey: Guid(d59a51e2488acc0489a59f311791e1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX_ALIEN_GUNS/SFX_ALIEN_GUNS_20.wav using Guid(d59a51e2488acc0489a59f311791e1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7efb1b4244fa1f83b25c0ae1a819c43b') in 0.008707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.021887 seconds.
+  path: Assets/Audio/SFX_ALIEN_GUNS/SFX_ALIEN_GUNS_19.wav
+  artifactKey: Guid(e3dd4c8ae88ab38488e3661ed9e30d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX_ALIEN_GUNS/SFX_ALIEN_GUNS_19.wav using Guid(e3dd4c8ae88ab38488e3661ed9e30d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ea3dc0b51ae4bc17355a4257f49a9af') in 0.009227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.036011 seconds.
+  path: Assets/Audio/SFX_ALIEN_GUNS/SFX_ALIEN_GUNS_18.wav
+  artifactKey: Guid(c43db2c93e4636d40ad204756a04f094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX_ALIEN_GUNS/SFX_ALIEN_GUNS_18.wav using Guid(c43db2c93e4636d40ad204756a04f094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '270f850a8cc0d0014a62515512831f84') in 0.009256 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.262270 seconds.
+  path: Assets/Audio/SFX_ALIEN_GUNS/SFX_ALIEN_GUNS_17.wav
+  artifactKey: Guid(535e1622ea09787449e76940e6623b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX_ALIEN_GUNS/SFX_ALIEN_GUNS_17.wav using Guid(535e1622ea09787449e76940e6623b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f452701455f33836c96a7dadbeeba3a') in 0.007940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.467220 seconds.
+  path: Assets/Audio/SFX_ALIEN_GUNS/SFX_ALIEN_GUNS_16.wav
+  artifactKey: Guid(1e1955f441eb8844d8f6dff4db07fd59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX_ALIEN_GUNS/SFX_ALIEN_GUNS_16.wav using Guid(1e1955f441eb8844d8f6dff4db07fd59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8fb1b5fda22d7b6ffdace7f0c88710f') in 0.009151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.325774 seconds.
+  path: Assets/Audio/SFX_ALIEN_GUNS/SFX_ALIEN_GUNS_15.wav
+  artifactKey: Guid(d97f72fbabab8cd4b9d56586af770b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX_ALIEN_GUNS/SFX_ALIEN_GUNS_15.wav using Guid(d97f72fbabab8cd4b9d56586af770b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e7d9ccd6b3592aa2732ac37fd3a2a0d') in 0.008104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.567110 seconds.
+  path: Assets/Audio/SFX_ALIEN_GUNS/SFX_ALIEN_GUNS_14.wav
+  artifactKey: Guid(14fe69848c051e5428e611c891a0ab69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX_ALIEN_GUNS/SFX_ALIEN_GUNS_14.wav using Guid(14fe69848c051e5428e611c891a0ab69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72af3988f862bbf61e848b293580ba99') in 0.009761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.671690 seconds.
+  path: Assets/Audio/SFX_ALIEN_GUNS/SFX_ALIEN_GUNS_13.wav
+  artifactKey: Guid(21c2f1d1d9a382d48b90d0166c022989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX_ALIEN_GUNS/SFX_ALIEN_GUNS_13.wav using Guid(21c2f1d1d9a382d48b90d0166c022989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '466cb67a4eb60a74bca51ee5105c6fa3') in 0.008717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.164674 seconds.
+  path: Assets/Audio/SFX_ALIEN_GUNS/SFX_ALIEN_GUNS_12.wav
+  artifactKey: Guid(567f02e0c4320564195ae1eb911493bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX_ALIEN_GUNS/SFX_ALIEN_GUNS_12.wav using Guid(567f02e0c4320564195ae1eb911493bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21efdd02dbd30787eccc3a47b7686805') in 0.009978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.782373 seconds.
+  path: Assets/Audio/SFX_ALIEN_GUNS/SFX_ALIEN_GUNS_10.wav
+  artifactKey: Guid(84890a236ab339548afcc88a5eda1ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX_ALIEN_GUNS/SFX_ALIEN_GUNS_10.wav using Guid(84890a236ab339548afcc88a5eda1ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcd9bc8829a3616c367c99faabf5fe3f') in 0.008827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.363140 seconds.
+  path: Assets/Audio/SFX_ALIEN_GUNS/SFX_ALIEN_GUNS_11.wav
+  artifactKey: Guid(d1f8f2590c2d7f04cadbe259449ab0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX_ALIEN_GUNS/SFX_ALIEN_GUNS_11.wav using Guid(d1f8f2590c2d7f04cadbe259449ab0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93a56f4aa445db23498dbdefeb95ec8a') in 0.008220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.899547 seconds.
+  path: Assets/Audio/SFX_ALIEN_GUNS/SFX_ALIEN_GUNS_9.wav
+  artifactKey: Guid(0e8c7aac7727949458437d62fd4d023b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX_ALIEN_GUNS/SFX_ALIEN_GUNS_9.wav using Guid(0e8c7aac7727949458437d62fd4d023b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6009884d29e0b266f1922979ceae3805') in 0.009046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.020340 seconds.
+  path: Assets/Audio/SFX_ALIEN_GUNS/SFX_ALIEN_GUNS_8.wav
+  artifactKey: Guid(dd0d06b3813b7ae4c9013dfaa2168aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX_ALIEN_GUNS/SFX_ALIEN_GUNS_8.wav using Guid(dd0d06b3813b7ae4c9013dfaa2168aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a0bbe445f55c72463f909ad271366f3') in 0.008823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.962818 seconds.
+  path: Assets/Audio/SFX_ALIEN_GUNS/SFX_ALIEN_GUNS_7.wav
+  artifactKey: Guid(4c938d814218e9d478af922276d450f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX_ALIEN_GUNS/SFX_ALIEN_GUNS_7.wav using Guid(4c938d814218e9d478af922276d450f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26677bea63ee794eb80ba0417adf3ed8') in 0.008894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.903345 seconds.
+  path: Assets/Audio/SFX_ALIEN_GUNS/SFX_ALIEN_GUNS_6.wav
+  artifactKey: Guid(0bccd416697cedd46b0ccd6c72d34bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX_ALIEN_GUNS/SFX_ALIEN_GUNS_6.wav using Guid(0bccd416697cedd46b0ccd6c72d34bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa4df3d7d3ea4f419fb2e123554233dc') in 0.008316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.842954 seconds.
+  path: Assets/Audio/SFX_ALIEN_GUNS/SFX_ALIEN_GUNS_5.wav
+  artifactKey: Guid(f0cc99d7928cdaa4aa536a85491b98c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX_ALIEN_GUNS/SFX_ALIEN_GUNS_5.wav using Guid(f0cc99d7928cdaa4aa536a85491b98c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57405a07f08f4e7c4aefed6889c87976') in 0.010825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.899661 seconds.
+  path: Assets/Audio/SFX_ALIEN_GUNS/SFX_ALIEN_GUNS_4.wav
+  artifactKey: Guid(8a336a69d6d16904393461e382bebf89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX_ALIEN_GUNS/SFX_ALIEN_GUNS_4.wav using Guid(8a336a69d6d16904393461e382bebf89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02df18ac3e7972257c83d4fad6894834') in 0.010813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.879646 seconds.
+  path: Assets/Audio/SFX_ALIEN_GUNS/SFX_ALIEN_GUNS_3.wav
+  artifactKey: Guid(d381db3ebd3d2f541be5d40556f8b39f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX_ALIEN_GUNS/SFX_ALIEN_GUNS_3.wav using Guid(d381db3ebd3d2f541be5d40556f8b39f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a40ff22b66aac07a74cdf7666c2213') in 0.009657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.887725 seconds.
+  path: Assets/Audio/SFX_ALIEN_GUNS/SFX_ALIEN_GUNS_2.wav
+  artifactKey: Guid(2a7e2793c5bc2344d90cbd2d81ac8796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX_ALIEN_GUNS/SFX_ALIEN_GUNS_2.wav using Guid(2a7e2793c5bc2344d90cbd2d81ac8796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '634c28ee896f6bda9ee4f89e7a655446') in 0.009894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
